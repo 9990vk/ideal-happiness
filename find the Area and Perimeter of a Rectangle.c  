@@ -1,0 +1,13 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+ int l, b, p, area;
+ cout<<"Enter Length and Breadth of the Rectangle: ";
+ cin>>l>>b;
+ area=l*b;
+ p=(2*l)+(2*b);
+ cout<<"Area of Rectangle: "<<area<<"\tPerimeter Rectangle: "<<p;
+ return 0;
+}

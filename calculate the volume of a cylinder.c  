@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+float radius,height,volume;
+cout<<"Enter Radius of Cylinder : ";
+cin>>radius;
+cout<<"Enter Height of Cylinder :";
+cin>>height;
+volume=3.14*radius*radius*height;
+cout<<"Volume of Cylinder is : " <<volume;
+return 0;
+}

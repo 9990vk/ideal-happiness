@@ -1,0 +1,13 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int rad;
+float vol;
+cout<<"Enter Radius of Sphere : ";
+cin>>rad;
+vol=(4*3.14*rad*rad*rad)/3;
+cout<<"Volume of Sphere = "<<vol;
+return 0;
+}
