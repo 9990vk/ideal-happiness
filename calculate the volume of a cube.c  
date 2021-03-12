@@ -1,0 +1,13 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int rad;
+float vol;
+cout<<"Enter Radius of cube : ";
+cin>>rad;
+vol=(rad*rad*rad);
+cout<<"Volume of cube = "<<vol;
+return 0;
+}
