@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+ float a,b,c,s,area;
+ cout<<"Enter Length of 1st side of the triangle : ";
+ cin >>a;
+ cout<<"Enter Length of 2nd side of the triangle : ";
+ cin >>b;
+ cout<<"Enter Length of 3rd side of the triangle : ";
+ cin >>c;
+ s=(a+b+c)/2;
+ area=sqrt(s*(s-a)*(s-b)*(s-c));
+ cout<<"Area of Rectangle: "<<area;
+ return 0;
+}
